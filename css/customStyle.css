@@ -1,0 +1,317 @@
+.btn-primary {
+    background-color: #124A80;
+}
+
+.btn-secondary {
+    background-color: #55A045;
+    color: #ffffff
+    
+}
+
+.form-group {
+    text-align: left;
+
+}
+legend {
+    text-align: center;
+}
+body {
+    padding-top: 70px;
+    float:none;
+    margin:0 auto;
+    display: block;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    
+    
+    
+    
+    
+}
+h1, h2, h3 legend {
+  			color: #124A80;
+  		}
+
+
+.jumbotron {
+    background: url("/img/bg.jpg");`
+    min-height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+    font-size: 20px
+    
+    
+}
+.jumbotron > p {
+    font-size: 25px;
+}
+
+ /* Navigation styling */
+ .navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: right;
+}
+@media screen and (max-width:765px){
+    .navbar-nav, .navbar-nav > li {
+        text-align:left;
+        display: block;
+        width: 100%;
+        border: 10px;
+        padding-bottom: 5px
+    
+        
+    }    
+
+}
+
+
+.navbar-nav > li  {
+    display: inline-block;
+    float:none;
+    font-size: 20px;
+    background-color: #124A80;
+    
+    
+}
+
+
+.navbar {
+    background-color: #124A80;
+    border: none;
+    box-shadow: 0px 0px 10px 0px ;
+    height: 70px;
+    justify-content: center;
+    padding: 5px;
+    
+    
+    
+    
+}
+
+
+
+ul.nav a { 
+    color: #fff !important; }
+ul.nav a:hover { 
+    color: #000000 !important; }
+navbar-toggle {
+    background-color: #fff;
+}
+.icon-bar {
+    background-color: #fff;
+}
+.navbar-brand {
+    text-align: left;
+    color: #fff;
+}
+.navbar-brand:hover {
+    color: #e1e1e1;
+}
+
+ /* Grid styling */
+.container {
+    margin: 0 auto;
+    /*  Removed text-center   */
+    
+    
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    vertical-align: top;
+    /* Evenly topping the boxes regardless of content size */
+    padding: 20px
+    
+}
+#box {
+    
+    box-shadow: 0px 0px 10px 0px #e1e1e1;
+    padding: 20px;
+    margin-bottom: 10px;
+    
+    
+    
+    
+}
+
+#box2 {
+    
+    box-shadow: 0px 0px 10px 0px #e1e1e1;
+    padding: 20px;
+    margin-top: 100px
+    
+    
+}
+
+
+img-style {
+    transition: transform .2s;
+    height: auto;
+    width: auto;
+}
+.img-style:hover {
+    transform: scale(1.2)
+}
+
+#logo-icon {
+    height: 35px;
+    display: inline-block;
+    padding: 5px;
+    
+    
+    
+}
+#box > hr {
+    border-color: #124A80;
+    
+}
+
+footer {
+  			color: #ffffff;
+  			text-align: left;
+  			background-color: #124A80;
+  			padding: 20px;
+  			max-width: 100%;
+        text-align: center;
+		}
+.card {
+    
+    box-shadow:0 20px 50px rgba(0,0,0,.1);
+    transition:0.5s;
+    width: 300px;
+    min-height:50px
+    border-radius:10px
+}
+.card:hover {
+    box-shadow:0 30px 70px rgba(0,0,0,.2);
+}
+
+.card .box {
+
+    padding:20px;
+    box-sizing:border-box;
+    width:100%;
+}
+
+/*Circle Box and center the image*/
+.card .box .img {
+    width:120px;
+    height:120px;
+    margin:0 auto;
+    border-radius:50%;
+    overflow:hidden;
+}
+
+/*Fit Box center inside the circle*/
+.card .box .img img {
+    width:100%;
+    height:100%;
+}
+
+.card .box h2 {
+    font-size:20px;
+    color:#262626;
+    margin:20px auto;
+    text-align: center;
+}
+.card .box h2 span {
+    font-size:14px;
+    background:#124A80;
+    color:#fff;
+    display:inline-block;
+    padding:4px 10px;
+    border-radius:15px;
+}
+.card .box span {
+    display:inline-flex;
+}
+
+
+text {
+  position: absolute;
+  width: 450px;
+  left: 50%;
+  margin-left: -225px;
+  height: 40px;
+  top: 50%;
+  margin-top: -20px;
+}
+
+p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+.word {
+  position: absolute;
+  width: 220px;
+  opacity: 0;
+}
+@media screen and (max-width:765px){
+    .word{position: relative
+        
+    }
+}
+
+.letter {
+  display: inline-block;
+  position: relative;
+  float: left;
+  transform: translateZ(25px);
+  transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.wisteria {
+  color: ;
+}
+
+.belize {
+  color: yellow;
+}
+
+.pomegranate {
+  color: orange;
+}
+
+.navbar {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+.navbar.scrolled {
+    background: rgb(68, 68, 68); /* IE */
+    background: rgba(0, 0, 0, 0.78); /* NON-IE */
+}
+
+
