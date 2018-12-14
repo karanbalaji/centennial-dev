@@ -16,7 +16,7 @@
 		<header role="banner">
     <nav class="navbar navbar navbar-fixed-top" role="navigation">
         <div class="container">
-            <a class="navbar-brand" href="#" >
+            <a class="navbar-brand" href="/index.php" >
             <img src="img/Logo-Icon.png" id="logo-icon" alt="PixelPorte Logo">Pixelporte
             </a>
             <!-- Brand and toggle get grouped for better mobile display -->
