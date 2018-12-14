@@ -29,10 +29,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="/AboutPage.html">About</a>
+                        <a href="/AboutPage.php">About</a>
                     </li>
                     <li>
-                        <a href="/portfolio.html">Work</a>
+                        <a href="/portfolio.php">Work</a>
                     </li>
                     <li>
                         <a href="/ContactForm.php">Contact</a>
