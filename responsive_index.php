@@ -17,7 +17,7 @@
     <nav class="navbar navbar navbar-fixed-top" role="navigation">
         <div class="container">
             <a class="navbar-brand" href="/index.php" >
-            <img src="img/Logo-Icon.png" id="logo-icon" alt="PixelPorte Logo">Pixelporte
+            <img alt="PixelPorte" src="img/Logo-Icon.png" id="logo-icon">Pixelporte
             </a>
             <!-- Brand and toggle get grouped for better mobile display -->
             
@@ -61,13 +61,13 @@
     
     <div class="jumbotron">
     
-        <h1>Pixel<span style="font-family: Raleway">Porte</span></h1>
+        <h1>PixelPorte</h1>
         
         <p>We are a creative agency that specilize in</p>
         <p>
-    <span class="word wisteria">Developing.</span>
-    <span class="word belize">Desigining</span>
-    <span class="word pomegranate">Marketing</span>
+    <span class="word white">Developing.</span>
+    <span class="word yellow">Desigining</span>
+    <span class="word orange">Marketing</span>
     
   </p>
         </div>
@@ -79,7 +79,7 @@
 	<section role="region">	
         <div class="row">
         <div class="col-md-6">
-        <img src="img/design.jpg" style="height: 100%;width: 100%">
+        <img alt="Background Image" src="img/design.jpg" style="height: 100%;width: 100%">
         
         
         </div>

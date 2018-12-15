@@ -7,7 +7,7 @@
 
 	
 </head>
-<body>
+<body role="main">
 
 		<!-- Navigation -->
 		<header role="banner">

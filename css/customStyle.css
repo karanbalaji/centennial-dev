@@ -1,3 +1,7 @@
+
+
+/*The basic Primary Formating */
+
 .btn-primary {
     background-color: #124A80;
 }
@@ -26,13 +30,14 @@ body {
     
     
     
-    
 }
 h1, h2, h3 legend {
   			color: #124A80;
   		}
+/*The Basic Primary Formating ends*/
 
 
+/*Full screen Jumbotron with the Bacground image */
 .jumbotron {
     background: url("/img/bg.jpg");`
     min-height: 50%;
@@ -53,6 +58,8 @@ h1, h2, h3 legend {
     font-size: 25px;
 }
 
+/*The Jumbotron Formating Ends*/
+
  /* Navigation styling */
  .navbar-nav {
     float:none;
@@ -60,6 +67,8 @@ h1, h2, h3 legend {
     display: block;
     text-align: right;
 }
+
+/*Custom Navbar-nav Mobile View styling*/
 @media screen and (max-width:765px){
     .navbar-nav, .navbar-nav > li {
         text-align:left;
@@ -113,6 +122,15 @@ navbar-toggle {
     text-align: left;
     color: #fff;
 }
+
+/*Adjust Navbar logo icon*/
+#logo-icon {
+    height: 35px;
+    display: inline-block;
+    padding: 5px;
+       
+}
+
 .navbar-brand:hover {
     color: #e1e1e1;
 }
@@ -120,10 +138,12 @@ navbar-toggle {
  /* Grid styling */
 .container {
     margin: 0 auto;
-    /*  Removed text-center   */
+/*  Removed text-center   */
     
     
 }
+
+/*Fixed that headache of getting the text back to left*/
 .col-centered {
     display:inline-block;
     float:none;
@@ -136,6 +156,8 @@ navbar-toggle {
     padding: 20px
     
 }
+
+/*Diffrent Box shadow styling*/
 #box {
     
     box-shadow: 0px 0px 10px 0px #e1e1e1;
@@ -157,36 +179,13 @@ navbar-toggle {
 }
 
 
-img-style {
-    transition: transform .2s;
-    height: auto;
-    width: auto;
-}
-.img-style:hover {
-    transform: scale(1.2)
-}
 
-#logo-icon {
-    height: 35px;
-    display: inline-block;
-    padding: 5px;
-    
-    
-    
-}
 #box > hr {
     border-color: #124A80;
     
 }
 
-footer {
-  			color: #ffffff;
-  			text-align: left;
-  			background-color: #124A80;
-  			padding: 20px;
-  			max-width: 100%;
-        text-align: center;
-		}
+
 .card {
     
     box-shadow:0 20px 50px rgba(0,0,0,.1);
@@ -289,29 +288,26 @@ p {
   transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.wisteria {
+.white {
   color: ;
 }
 
-.belize {
+.yellow {
   color: yellow;
 }
 
-.pomegranate {
+.orange {
   color: orange;
 }
 
-.navbar {
-    -webkit-transition: all 0.6s ease-out;
-    -moz-transition: all 0.6s ease-out;
-    -o-transition: all 0.6s ease-out;
-    -ms-transition: all 0.6s ease-out;
-    transition: all 0.6s ease-out;
-}
-
-.navbar.scrolled {
-    background: rgb(68, 68, 68); /* IE */
-    background: rgba(0, 0, 0, 0.78); /* NON-IE */
-}
 
 
+/*Finally the footer styling*/
+footer {
+  			color: #ffffff;
+  			text-align: left;
+  			background-color: #124A80;
+  			padding: 20px;
+  			max-width: 100%;
+        text-align: center;
+		}
